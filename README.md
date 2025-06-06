@@ -44,7 +44,7 @@ Utiliza una arquitectura modular, patrones de diseño y estructuras concurrentes
 ## ⚙️ Instalación y ejecución
 
 1. **Clona el repositorio:**
-   ```bash
+   
    git clone https://github.com/Deiner-Calanche/gestion-emergencias-medicas
    cd gestion-emergencias-medicas
    
@@ -62,11 +62,11 @@ El sistema mostrará en consola las emergencias recibidas, su prioridad y la asi
 Puedes simular la llegada de nuevas emergencias y observar cómo se despachan en tiempo real.
 
 📦 Dependencias principales
-Java 17
-
+Java 21
 Maven
 
 📬 Contacto
 Deiner Calanche Villa
+
 📧 deiner.calanche@est.iudigital.edu.co
 📱 3147934341
