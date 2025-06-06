@@ -27,19 +27,17 @@ Utiliza una arquitectura modular, patrones de diseño y estructuras concurrentes
 ## 📂 Estructura del proyecto
 
 /src
-└── main
-└── java
-└── com
-└── iudigital
-├── model # Clases de dominio (Emergencia, Recurso)
-├── service # Lógica y gestión de negocio
-├── thread # Hilos para concurrencia
-├── view # Interfaz de usuario en consola
-└── Main.java # Clase principal para arrancar el sistema
+- ** └── main
+- └── java
+- └── com
+- └── iudigital
+- ├── model # Clases de dominio (Emergencia, Recurso)
+- ├── service # Lógica y gestión de negocio
+- ├── thread # Hilos para concurrencia
+- ├── view # Interfaz de usuario en consola
+- └── Main.java # Clase principal para arrancar el sistema
 
-yaml
-Copiar
-Editar
+
 
 ---
 
@@ -49,17 +47,14 @@ Editar
    ```bash
    git clone https://github.com/Deiner-Calanche/gestion-emergencias-medicas
    cd gestion-emergencias-medicas
-Compila el proyecto con Maven:
+   
 
-bash
-Copiar
-Editar
+
+
 mvn clean install
 Ejecuta la aplicación:
 
-bash
-Copiar
-Editar
+
 mvn exec:java -Dexec.mainClass="com.iudigital.Main"
 🖥️ Uso básico
 El sistema mostrará en consola las emergencias recibidas, su prioridad y la asignación de recursos.
