@@ -12,6 +12,8 @@ Utiliza una arquitectura modular, patrones de diseño y estructuras concurrentes
 
 ---
 
+
+
 ## 🚀 Características principales
 
 - **Arquitectura en capas:** Separación clara entre modelo, lógica de negocio, concurrencia e interfaz.
@@ -51,6 +53,13 @@ Utiliza una arquitectura modular, patrones de diseño y estructuras concurrentes
    
 
 
+## 🎥 Video Demostrativo
+
+📽️ **Haz clic en el enlace para ver el video del funcionamiento del sistema:**
+
+👉 [Ver Video en Google Drive](https://drive.google.com/file/d/17LP1jMZ3dQm8WBWE5Hc6yynTK32wh3qc/view?usp=sharing)
+
+---
 
 mvn clean install
 Ejecuta la aplicación:
