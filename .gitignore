@@ -36,3 +36,24 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+*.iml
+.idea/
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
